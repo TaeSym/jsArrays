@@ -35,3 +35,9 @@ var goals = [
 var allTheThings = [...hobbies, ...goals];
 console.log(allTheThings);
 console.log(allTheThings.indexOf("own my own home"));
+
+var plans = allTheThings.map(function (item) {
+  return `I can't wait to start ${item}.`;
+});
+
+console.log(plans);
