@@ -26,4 +26,12 @@ hobbies.unshift("playing with my dog");
 
 console.log(hobbies);
 
+var goals = [
+  "transition into tech",
+  "own my own home",
+  "see more of the world",
+];
 
+var allTheThings = [...hobbies, ...goals];
+console.log(allTheThings);
+console.log(allTheThings.indexOf("own my own home"));
